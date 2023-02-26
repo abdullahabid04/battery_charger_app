@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main_home_page_form</class>
+ <widget class="QWidget" name="main_home_page_form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="home_dashboard">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QFrame" name="top_bar_home">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>1002</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_7">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>5</y>
+       <width>824</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 255);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>5</y>
+        <width>500</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;Rockwell&quot;;</string>
+      </property>
+      <property name="text">
+       <string>RF80-M / Home          | Christie Software v1</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="dashboard_main">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>1002</width>
+      <height>450</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="side_menu_home">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>220</width>
+       <height>430</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="btn_charge_constant_current">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>15</y>
+        <width>200</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+alternate-background-color: rgb(0, 85, 255);
+background-color: rgb(0, 0, 255);
+selection-color: rgb(255, 255, 255);
+selection-background-color: rgb(85, 170, 255);</string>
+      </property>
+      <property name="text">
+       <string>CHARGE CONSTANT CURRENT</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_charge_constant_voltage">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>200</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+alternate-background-color: rgb(0, 85, 255);
+background-color: rgb(0, 0, 255);
+selection-color: rgb(255, 255, 255);
+selection-background-color: rgb(85, 170, 255);</string>
+      </property>
+      <property name="text">
+       <string>CHARGE CONSTANT VOLTAGE</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_charge_reflex">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>185</y>
+        <width>200</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+alternate-background-color: rgb(0, 85, 255);
+background-color: rgb(0, 0, 255);
+selection-color: rgb(255, 255, 255);
+selection-background-color: rgb(85, 170, 255);</string>
+      </property>
+      <property name="text">
+       <string>CHARGE REFLEX</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_discharge">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>200</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+alternate-background-color: rgb(0, 85, 255);
+background-color: rgb(0, 0, 255);
+selection-color: rgb(255, 255, 255);
+selection-background-color: rgb(85, 170, 255);</string>
+      </property>
+      <property name="text">
+       <string>DISCHARGE</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_wait">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>355</y>
+        <width>200</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+alternate-background-color: rgb(0, 85, 255);
+background-color: rgb(0, 0, 255);
+selection-color: rgb(255, 255, 255);
+selection-background-color: rgb(85, 170, 255);</string>
+      </property>
+      <property name="text">
+       <string>WAIT</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="main_workspace">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>10</y>
+       <width>750</width>
+       <height>430</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="buttons_space">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>510</y>
+      <width>1002</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,30 @@
+{
+  "mode": {
+    "cell_test": "000",
+    "charge": "001",
+    "dis_charge_wait": "010",
+    "step_2_cc": "011",
+    "analyze": "100",
+    "analyze_wait": "101"
+  },
+  "reflex_type": {
+    "A": "0",
+    "B": "1"
+  },
+  "dis_charge_type": {
+    "short": "00",
+    "deep": "01",
+    "long": "10"
+  },
+  "battery_type": {
+    "CC": "0000",
+    "CP_lead_acid_3": "0001",
+    "CP_lead_acid_6": "0010",
+    "CP_lead_acid_12": "0011",
+    "CP_lead_acid_14": "0100",
+    "Reflex_Ni_CAD_11": "0101",
+    "Reflex_Ni_CAD_19": "0110",
+    "Reflex_Ni_CAD_20": "0111",
+    "Reflex_Ni_CAD_22": "1000"
+  }
+}

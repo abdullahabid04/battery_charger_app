@@ -1,0 +1,31 @@
+{
+  "constant_current_charge": {
+    "cc_charge_current": "",
+    "cc_charge_time": "",
+    "cc_charge_voltage": "",
+    "cc_terminate_on": "",
+    "cc_optional_alerts": ""
+  },
+  "constant_voltage_charge": {
+    "cp_charge_current": "",
+    "cp_charge_time": "",
+    "cp_charge_voltage": "",
+    "cp_optional_alerts": ""
+  },
+  "reflex_charge": {
+    "rc_charge_current": "",
+    "rc_charge_time": "",
+    "rc_no_of_cells": "",
+    "rc_reflex_type": "",
+    "rc_optional_alerts": ""
+  },
+  "dis_charge": {
+    "dc_dis_charge_current": "",
+    "dc_dis_charge_time": "",
+    "dc_dis_charge_voltage": "",
+    "dc_optional_alerts": ""
+  },
+  "wait_charge": {
+    "wc_wait_time": ""
+  }
+}
